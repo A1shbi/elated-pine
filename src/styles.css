@@ -1,0 +1,92 @@
+/* Жалпы стиль */
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: "Arial", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Контейнер */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Drag & Drop аймағы */
+.dropzone {
+  border: 2px dashed #fff;
+  padding: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.dropzone:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Іздеу жолағы */
+.search-bar {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+/* Сұрыптау батырмасы */
+.sort-button {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.sort-button:hover {
+  background: #e68900;
+}
+
+/* Файл тізімі */
+.file-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-item {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.file-image {
+  max-width: 100px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.pdf-link {
+  display: block;
+  margin-top: 5px;
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+.pdf-link:hover {
+  text-decoration: underline;
+}
